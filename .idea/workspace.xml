@@ -2,19 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="be201448-1f53-4bbc-a7d9-7854f30d72f0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/config_server/src/main/java/com/qfedu/config_server/SecurityConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config_server/src/main/resources/bootstrap.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config_server/src/main/resources/config-server.keystore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consumer/src/main/java/com/qfedu/consumer/HelloController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consumer/src/main/resources/bootstrap.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stream/src/main/java/com/qfedu/stream/HelloController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stream/src/main/java/com/qfedu/stream/MyConsumer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stream/src/main/java/com/qfedu/stream/MyConsumer2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stream/src/main/java/com/qfedu/stream/MyMessageChannel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/business/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/business/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/business/src/main/java/com/qfedu/business/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/business/src/main/java/com/qfedu/business/HelloController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/storage/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/storage/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/storage/src/main/java/com/qfedu/storage/StorageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/storage/src/main/java/com/qfedu/storage/StorageController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/hystrix/target/" />
@@ -44,7 +33,17 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/eureka/src/main/java/com/qfedu/eureka/EurekaApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="175">
+              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -93,9 +92,52 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane" />
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="clouddemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="config_server" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="clouddemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="config_server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="clouddemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="config_server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="clouddemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="config_server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="clouddemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="config_server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="config_server" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="clouddemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="config_server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
     </panes>
   </component>
   <component name="ProjectViewState">
@@ -250,16 +292,17 @@
       <workItem from="1648005392247" duration="266000" />
       <workItem from="1648006417363" duration="4951000" />
       <workItem from="1648087088198" duration="782000" />
+      <workItem from="1648274373313" duration="576000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19155000" />
+    <option name="totallyTimeSpent" value="19731000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27231467" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27609682" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -392,24 +435,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/eureka/src/main/java/com/qfedu/eureka/EurekaApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/client01/src/test/java/com/qfedu/client01/Client01ApplicationTests.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="125">
           <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client01/src/main/java/com/qfedu/client01/Client01Application.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -476,6 +505,20 @@
     <entry file="file://$PROJECT_DIR$/config-server/src/main/java/com/qfedu/configserver/ConfigServerApplication.java" />
     <entry file="file://$PROJECT_DIR$/config-server/src/main/resources/application.properties" />
     <entry file="file://$PROJECT_DIR$/config-server/pom.xml" />
+    <entry file="file://$PROJECT_DIR$/client01/src/main/java/com/qfedu/client01/Client01Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eureka/src/main/java/com/qfedu/eureka/EurekaApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
   </component>
   <component name="masterDetails">
     <states>
