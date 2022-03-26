@@ -1,0 +1,7 @@
+POST http://localhost:8082/actuator/refresh
+Accept: application/vnd.spring-boot.actuator.v3+json
+
+<> 2022-03-23T101604.200.json
+
+###
+
